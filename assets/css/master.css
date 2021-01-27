@@ -11,9 +11,12 @@
   padding-top: 5px;
 }
 [class^="col-"] {
+  float: left;
+}
+.row::after{
   content: "";
-  display: table;
   clear: both;
+  display: table;
 }
 /* NAVBAR */
 nav{
@@ -90,4 +93,30 @@ nav ul li a {
   padding: 20px 20px;
   margin-top: 18px;
   width: 200px;
+}
+ /* MAIN */
+
+
+.bg-slogan {
+  background-color: #D3D3D3;
+  height: 120px;
+
+}
+.slogan_1 {
+  padding-top: 30px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.slogan_2 {
+  vertical-align: middle;
+  text-align: center;
+  font-size: 15px;
+  color: #808080
+}
+
+.profile {
+  width: 50%;
+
 }
