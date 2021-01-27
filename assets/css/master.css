@@ -72,16 +72,18 @@ nav ul li a {
 
 /* JUMBO */
 .jumbo {
+  background-color: #0C325A;
   background-image: url("../img/background-header.png");
-  height: 600px;
-  background-repeat: no-repeat;
+  height: 500px;
   background-size: cover;
+
 }
 .text-jumbo {
   color: #fff;
-  font-size: 30px;
-  width: 50%;
-  margin-top: 15%;
+  font-size: 20px;
+  width: 40%;
+  margin-top: 10%;
+  margin-left: 10%;
 }
 .text-jumbo a {
   display: inline-block;
