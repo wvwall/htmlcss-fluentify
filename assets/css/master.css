@@ -1,8 +1,9 @@
+/* LAYOUT */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .conteiner {
@@ -76,8 +77,8 @@ nav ul li a {
 .jumbo {
   background-color: #0C325A;
   background-image: url("../img/background-header.png");
-  height: 400px;
-  background-size: contain;
+  height: 360px;
+  background-size: 65%;
   background-position: bottom;
   background-position: right;
   background-repeat: no-repeat;
@@ -85,9 +86,9 @@ nav ul li a {
 }
 .text-jumbo {
   color: #fff;
-  font-size: 20px;
+  font-size: 45px;
   width: 40%;
-  margin-top: 5%;
+  margin-top: 4%;
   margin-left: 10%;
 }
 .text-jumbo a {
@@ -97,7 +98,7 @@ nav ul li a {
   font-size: 12px;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 20px 20px;
+  padding: 18px 18px;
   margin-top: 18px;
   width: 200px;
 }
@@ -106,24 +107,101 @@ nav ul li a {
 
 .bg-slogan {
   background-color: #D3D3D3;
-  height: 120px;
+  height: 130px;
 
 }
 .slogan_1 {
-  padding-top: 30px;
+  padding-top: 40px;
   vertical-align: middle;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 .slogan_2 {
   vertical-align: middle;
   text-align: center;
   font-size: 15px;
-  color: #808080
+  color: #808080;
 }
+/* PIANO FORMATIVO */
 
 .profile {
+  width: 40%;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.comp {
+  width: 60%;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.docu {
   width: 50%;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tre {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+hr {
+  height: 1px;
+  color: #D3D3D3;
+  margin: 0 8px;
+}
+.tit-green {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  color: #7CBB02;
+  padding: 0 45px;
+}
+.tre hr {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #D3D3D3;
+}
+.par {
+  text-align: center;
+  padding: 0 25px;
+  color: #424242;
+}
+/* SCOPRI IL TUO LIVELLO */
+
+.mont {
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.livello {
+  margin-top: 30px;
+  margin-left: 25px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.liv {
+  text-align: justify;
+  width: 75%;
+  margin-top: 10px;
+}
+.placement {
+  font-size: 13px;
+  color: #5586BC;
+  margin-left: 25px;
+  display: block;
+  margin-top: 25px;
 }
