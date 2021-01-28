@@ -58,9 +58,14 @@ nav ul li a {
   float: right;
 }
 /* UTILITY */
-.btn-green{
+.btn{
   background-color: #7CBB02;
   padding: 8px 10px;
+  border-radius: 5px;
+}
+.btn-green{
+  background-color: #7CBB02;
+  padding: 18px 10px;
   border-radius: 5px;
 }
 .col-100{
@@ -77,8 +82,8 @@ nav ul li a {
 .jumbo {
   background-color: #0C325A;
   background-image: url("../img/background-header.png");
-  height: 360px;
-  background-size: 65%;
+  height: 350px;
+  background-size: 68%;
   background-position: bottom;
   background-position: right;
   background-repeat: no-repeat;
@@ -149,16 +154,16 @@ nav ul li a {
 }
 .tre {
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 hr {
   height: 1px;
-  color: #D3D3D3;
+  color:#eeeeee;
   margin: 0 8px;
 }
 .tit-green {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   text-align: center;
   color: #7CBB02;
@@ -175,7 +180,7 @@ hr {
 }
 .par {
   text-align: center;
-  padding: 0 25px;
+  padding: 0 27px;
   color: #424242;
 }
 /* SCOPRI IL TUO LIVELLO */
@@ -203,5 +208,62 @@ hr {
   color: #5586BC;
   margin-left: 25px;
   display: block;
-  margin-top: 25px;
+  margin-top: 20px;
+}
+.main {
+  margin-bottom: 25px;
+}
+/* FOOTER */
+
+.bg-footer {
+  background-color: #D3D3D3;
+  height: 130px;
+  line-height: 130px;
+}
+.tit-foot {
+  font-size: 29px;
+  font-weight: 500;
+}
+.sei {
+  margin-left: 70px;
+  color: gray;
+  font-size: 14px;
+}
+.sel {
+  margin-left: 20px;
+  border-bottom: 1px solid gray;
+  color: gray;
+  font-size: 14px;
+}
+.sel::after {
+  content: '\25bc';
+  margin-left: 70px;
+}
+.footer a {
+  color: #fff;
+  font-size: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 20px;
+
+}
+.fot {
+  padding: 10px 0;
+}
+/* HELP FIXATO */
+.help {
+  text-transform: uppercase;
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  right: 230px;
+  background-color: #7CBB02;
+  color: white;
+  font-size: 12px;
+  padding: 8px 8px;
+  border-radius: 5px 5px 0 0;
+}
+.fix {
+  background-color: #D3D3D3;
+  height: 140px;
 }
