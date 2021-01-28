@@ -21,6 +21,7 @@
 /* NAVBAR */
 nav{
   background-color: #0C325A;
+  padding-bottom: 40px;
 }
 .logo{
   display: inline-block;
@@ -39,10 +40,11 @@ nav ul li {
 }
 nav ul li a {
   color: #fff;
-  font-size: 12px;
+  font-size: 10px;
   text-decoration: none;
   text-transform: uppercase;
   margin-left: 20px;
+
 }
 .btn-login {
   border: 1px solid #fff;
@@ -74,15 +76,18 @@ nav ul li a {
 .jumbo {
   background-color: #0C325A;
   background-image: url("../img/background-header.png");
-  height: 500px;
-  background-size: cover;
+  height: 400px;
+  background-size: contain;
+  background-position: bottom;
+  background-position: right;
+  background-repeat: no-repeat;
 
 }
 .text-jumbo {
   color: #fff;
   font-size: 20px;
   width: 40%;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 10%;
 }
 .text-jumbo a {
